@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('background.jpg');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+   margin: 10px; 
+  margin-top: 10px;
+ 
+ 
+}
+.nav-items{
+  list-style-type: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  font-size: large;
+  
+}
+
+.icon-tray{
+   display: flex;
+   flex-direction: column;
+  justify-content: space-evenly; 
+  align-items: end;
+  list-style-type: none;
+  cursor: pointer;
+  margin-top: 250px;
+  color: white;
+}
+
+.icon{
+  padding: 5px;
+  font-size:20px;
+}
+
+a{
+  color: #fffef8;
+}
+
+.landing-body{
+  width: 80%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  margin-top: -200px;
+ margin-left: 200px;
+}
+
+.Landing-text{
+color: white;
+font-size: 80px;
+font-weight: 100;
+}
+.name{
+  color: white;
+  margin: 10px;
+  
+}
+.function{
+  margin:10px;
+}
+
+.function:hover{
+  color: rgba(255, 255, 255, 1);
+  text-shadow:0px 0px 5px #fffef8;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.landing-body {
+  animation: fadeIn 5s;
+  /* -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s; */
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.link{
+  text-decoration: none;
+}
