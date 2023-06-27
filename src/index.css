@@ -27,6 +27,8 @@ nav{
   justify-content: space-evenly;
   cursor: pointer;
   font-size: large;
+  /* border: solid;
+  border-color: white; */
   
 }
 
@@ -39,6 +41,10 @@ nav{
   cursor: pointer;
   margin-top: 250px;
   color: white;
+  /* border: solid;
+  border-color: white; */
+  width: 100px;
+  float: right;
 }
 
 .icon{
@@ -55,14 +61,19 @@ a{
   height: 250px;
   display: flex;
   align-items: center;
-  margin-top: -200px;
- margin-left: 200px;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 110px; 
+  /* border: solid;
+ border-color: white;  */
 }
 
 .Landing-text{
 color: white;
-font-size: 80px;
+font-size: 70px;
 font-weight: 100;
+padding:20px;
+text-align: center;
 }
 .name{
   color: white;
@@ -96,4 +107,11 @@ font-weight: 100;
 
 .link{
   text-decoration: none;
+}
+.Contact-container{
+  border:solid;
+  border-color: white;
+  width:80%;
+  margin-left: 100px;
+  height: 600px;
 }
