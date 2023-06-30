@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('background.jpg');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+   margin: 10px; 
+  margin-top: 10px;
+ 
+ 
+}
+.nav-items{
+  list-style-type: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  font-size: large;
+  /* border: solid;
+  border-color: white; */
+  
+}
+
+.icon-tray{
+   display: flex;
+   flex-direction: column;
+  justify-content: space-evenly; 
+  align-items: end;
+  list-style-type: none;
+  cursor: pointer;
+  margin-top: 250px;
+  color: white;
+  /* border: solid;
+  border-color: white; */
+  width: 100px;
+  float: right;
+}
+
+.icon{
+  padding: 5px;
+  font-size:20px;
+}
+
+a{
+  color: #fffef8;
+}
+
+.landing-body{
+  width: 80%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 110px; 
+  /* border: solid;
+ border-color: white;  */
+}
+
+.Landing-text{
+color: white;
+font-size: 70px;
+font-weight: 100;
+padding:20px;
+text-align: center;
+}
+.name{
+  color: white;
+  margin: 10px;
+  
+}
+.function{
+  margin:10px;
+}
+
+.function:hover{
+  color: rgba(255, 255, 255, 1);
+  text-shadow:0px 0px 5px #fffef8;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.landing-body {
+  animation: fadeIn 5s;
+  /* -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s; */
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.link{
+  text-decoration: none;
+}
+.Contact-container{
+  border:solid;
+  border-color: white;
+  width:80%;
+  margin-left: 100px;
+  height: 600px;
+}
