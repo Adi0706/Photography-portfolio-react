@@ -27,8 +27,8 @@ nav{
   justify-content: space-evenly;
   cursor: pointer;
   font-size: large;
-  /* border: solid;
-  border-color: white; */
+   border: solid;
+  border-color: white; 
   
 }
 
@@ -41,14 +41,14 @@ nav{
   cursor: pointer;
   margin-top: 250px;
   color: white;
-  /* border: solid;
-  border-color: white; */
-  width: 100px;
+   border: solid;
+  border-color: white; 
+  width: inherit;
   float: right;
 }
 
 .icon{
-  padding: 5px;
+  padding: 3px;
   font-size:20px;
 }
 

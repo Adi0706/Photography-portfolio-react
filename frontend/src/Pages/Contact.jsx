@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -7,18 +7,19 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-// import axios from 'axios';
+
 const defaultTheme = createTheme();
 
 export default function Contact() {
-  const [post, setpost] = useState({
-    name:"",
+  const [post, setPost] = useState({
+    name: "",
     email: "",
     Phone_Number: "",
     Text_Field: "",
   });
+
   const handleInput = (event) => {
-    setpost({ ...post, [event.target.name]: event.target.value });
+    setPost({ ...post, [event.target.name]: event.target.value });
   };
 
   const sendData = async () => {
@@ -33,7 +34,6 @@ export default function Contact() {
 
       if (response.ok) {
         alert("Data sent successfully!");
-      
         setPost({
           name: "",
           email: "",
@@ -48,9 +48,6 @@ export default function Contact() {
     }
   };
 
-
-
-
   return (
     <ThemeProvider theme={defaultTheme}>
       <Container component="main" maxWidth="xs">
@@ -63,12 +60,10 @@ export default function Contact() {
             alignItems: "center",
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}>
-          </Avatar>
-          <Typography component="h1" variant="h5" sx={{ color: "white" }}>
+          <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}></Avatar>
+          <Typography component="h1" variant="h5" sx={{ color: "white", fontSize: 24, marginBottom: 3 }}>
             CONTACT FORM
           </Typography>
-
           <Box component="form" noValidate sx={{ mt: 3 }}>
             <TextField
               margin="normal"
@@ -79,8 +74,9 @@ export default function Contact() {
               name="name"
               autoComplete="Name"
               autoFocus
+              value={post.name}
               onChange={handleInput}
-              sx={{ backgroundColor: "white",borderRadius:'10px'}}
+              sx={{ backgroundColor: "white", borderRadius: "10px", fontSize: 16, marginBottom: 2 }}
             />
             <TextField
               margin="normal"
@@ -91,8 +87,9 @@ export default function Contact() {
               name="email"
               autoComplete="email"
               autoFocus
+              value={post.email}
               onChange={handleInput}
-              sx={{ backgroundColor: "white",borderRadius:'10px' }}
+              sx={{ backgroundColor: "white", borderRadius: "10px", fontSize: 16, marginBottom: 2 }}
             />
             <TextField
               margin="normal"
@@ -103,18 +100,20 @@ export default function Contact() {
               type="tel"
               id="mobile"
               autoComplete="current-mobile"
+              value={post.Phone_Number}
               onChange={handleInput}
-              sx={{ backgroundColor: "white",borderRadius:'10px' }}
+              sx={{ backgroundColor: "white", borderRadius: "10px", fontSize: 16, marginBottom: 2 }}
             />
             <TextField
               margin="normal"
               required
               fullWidth
               name="Text_Field"
-              label="How can I help you ?"
+              label="How can I help you?"
               id="Help"
+              value={post.Text_Field}
               onChange={handleInput}
-              sx={{ backgroundColor: "white",borderRadius:'10px' }}
+              sx={{ backgroundColor: "white", borderRadius: "10px", fontSize: 16, marginBottom: 2 }}
             />
             <Button
               type="submit"

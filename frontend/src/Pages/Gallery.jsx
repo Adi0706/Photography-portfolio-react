@@ -1,10 +1,10 @@
-import React from "react";
-
-
+import React from 'react'
 
 function Gallery() {
   return (
-    <div>Gallery</div>
+    <div className='GalContainer'>
+      
+    </div>
   )
 }
 
