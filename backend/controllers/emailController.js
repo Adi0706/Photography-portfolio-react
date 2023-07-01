@@ -21,7 +21,7 @@ const sendEmail = async (req, res) => {
 
     const mailOptions = {
       from: process.env.SMTP_MAIL,
-      to: email,
+      to: "aditya.bhattacharjee706@gmail.com", // Replace with your email address
       subject: "Contact Form Submission",
       text: `Name: ${name}\nEmail: ${email}\nPhone Number: ${Phone_Number}\nMessage: ${Text_Field}`,
     };
@@ -38,4 +38,6 @@ const sendEmail = async (req, res) => {
 
 router.post("/sendEmail", sendEmail);
 
-module.exports = router;
+module.exports = {
+  sendEmail: sendEmail
+};
