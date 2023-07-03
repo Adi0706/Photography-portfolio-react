@@ -49,8 +49,8 @@ export default function Contact() {
   };
 
   return (
-    <ThemeProvider theme={defaultTheme}>
-      <Container component="main" maxWidth="xs">
+    <ThemeProvider theme={defaultTheme} >
+      <Container component="main" maxWidth="xs"className="theme">
         <CssBaseline />
         <Box
           sx={{
@@ -62,7 +62,7 @@ export default function Contact() {
         >
           <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}></Avatar>
           <Typography component="h1" variant="h5" sx={{ color: "white", fontSize: 24, marginBottom: 3 }}>
-            CONTACT FORM
+            HAVE A QUESTION ?
           </Typography>
           <Box component="form" noValidate sx={{ mt: 3 }}>
             <TextField

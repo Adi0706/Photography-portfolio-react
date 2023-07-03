@@ -27,9 +27,9 @@ nav{
   justify-content: space-evenly;
   cursor: pointer;
   font-size: large;
-   border: solid;
+   /* border: solid;
   border-color: white; 
-  
+   */
 }
 
 .icon-tray{
@@ -41,8 +41,8 @@ nav{
   cursor: pointer;
   margin-top: 250px;
   color: white;
-   border: solid;
-  border-color: white; 
+   /* border: solid;
+  border-color: white;  */
   width: inherit;
   float: right;
 }
@@ -64,8 +64,6 @@ a{
   justify-content: center;
   margin-top: 150px;
   margin-left: 110px; 
-  /* border: solid;
- border-color: white;  */
 }
 
 .Landing-text{
@@ -94,10 +92,6 @@ text-align: center;
 }
 .landing-body {
   animation: fadeIn 5s;
-  /* -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s; */
 }
 
 @keyframes fadeIn {
@@ -108,10 +102,54 @@ text-align: center;
 .link{
   text-decoration: none;
 }
-.Contact-container{
-  border:solid;
-  border-color: white;
+
+.About-Container{
   width:80%;
   margin-left: 100px;
   height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 1s;
+  
 }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.theme{
+  animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.image-container {
+  flex: 1;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+
+.myimg {
+  max-width: 100%;
+  height: auto;
+  width: 500px;
+  margin-top: -150px;
+  border-radius: 1000px;
+  box-shadow: 0 0 20px 10px rgba(236, 120, 38, 0.7);
+}
+
+
+.text-container {
+  flex: 1;
+  margin-right: 30px; 
+  margin-bottom: 50px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f3eeee;
+  /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff; */
+}
+
