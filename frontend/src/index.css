@@ -150,6 +150,29 @@ text-align: center;
   font-size: 16px;
   line-height: 1.5;
   color: #f3eeee;
-  /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff; */
+}
+.Galcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  animation: fadeIn 1s;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 50px;
 }
 
+.Galcontainer img {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  padding:10px;
+  margin-left: 50px;
+  cursor: pointer;
+}

@@ -1,14 +1,12 @@
 import React from 'react'
+import GalView from '../components/GalleryView'
 
-function Gallery() {
-
- 
-
+function Gallery (){
   return (
     <div className='GalContainer'>
-   
-      
-    </div>
+      <GalView />
+
+      </div>
   )
 }
 
