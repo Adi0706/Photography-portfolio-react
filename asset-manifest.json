@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4959bbd1.css",
-    "main.js": "/Portfolio/static/js/main.a310e44a.js",
-    "static/js/787.3fe431ec.chunk.js": "/Portfolio/static/js/787.3fe431ec.chunk.js",
-    "static/media/photo7.png": "/Portfolio/static/media/photo7.4d28c7be01cf5fed351e.png",
-    "static/media/about.png": "/Portfolio/static/media/about.94ffb7299d0415c15390.png",
-    "static/media/photo6.png": "/Portfolio/static/media/photo6.5d3e60f0b9afb6782f71.png",
-    "static/media/photo8.png": "/Portfolio/static/media/photo8.880c2be3e2a69133efdf.png",
-    "static/media/photo1.png": "/Portfolio/static/media/photo1.6ff66b55baa9ef9aa943.png",
-    "static/media/photo5.png": "/Portfolio/static/media/photo5.f524d00e33c99032c7c4.png",
-    "static/media/photo4.png": "/Portfolio/static/media/photo4.af6d7d991530a99e414a.png",
-    "static/media/photo9.png": "/Portfolio/static/media/photo9.472f2b6721c28df2d8a4.png",
-    "static/media/photo3.png": "/Portfolio/static/media/photo3.7e010cd0de4543348249.png",
-    "static/media/photo2.png": "/Portfolio/static/media/photo2.7d9547d61324595ff66b.png",
-    "static/media/background.jpg": "/Portfolio/static/media/background.61d2aa2969443db94565.jpg",
-    "index.html": "/Portfolio/index.html",
-    "main.4959bbd1.css.map": "/Portfolio/static/css/main.4959bbd1.css.map",
-    "main.a310e44a.js.map": "/Portfolio/static/js/main.a310e44a.js.map",
-    "787.3fe431ec.chunk.js.map": "/Portfolio/static/js/787.3fe431ec.chunk.js.map"
+    "main.css": "/Adi0706/Aditya-Bhattacharjee-Photography/static/css/main.70c67f9b.css",
+    "main.js": "/Adi0706/Aditya-Bhattacharjee-Photography/static/js/main.61f7c81d.js",
+    "static/js/787.3fe431ec.chunk.js": "/Adi0706/Aditya-Bhattacharjee-Photography/static/js/787.3fe431ec.chunk.js",
+    "static/media/photo7.png": "/Adi0706/Aditya-Bhattacharjee-Photography/static/media/photo7.4d28c7be01cf5fed351e.png",
+    "static/media/about.png": "/Adi0706/Aditya-Bhattacharjee-Photography/static/media/about.94ffb7299d0415c15390.png",
+    "static/media/photo6.png": "/Adi0706/Aditya-Bhattacharjee-Photography/static/media/photo6.5d3e60f0b9afb6782f71.png",
+    "static/media/photo8.png": "/Adi0706/Aditya-Bhattacharjee-Photography/static/media/photo8.880c2be3e2a69133efdf.png",
+    "static/media/photo1.png": "/Adi0706/Aditya-Bhattacharjee-Photography/static/media/photo1.6ff66b55baa9ef9aa943.png",
+    "static/media/photo5.png": "/Adi0706/Aditya-Bhattacharjee-Photography/static/media/photo5.f524d00e33c99032c7c4.png",
+    "static/media/photo4.png": "/Adi0706/Aditya-Bhattacharjee-Photography/static/media/photo4.af6d7d991530a99e414a.png",
+    "static/media/photo9.png": "/Adi0706/Aditya-Bhattacharjee-Photography/static/media/photo9.472f2b6721c28df2d8a4.png",
+    "static/media/photo3.png": "/Adi0706/Aditya-Bhattacharjee-Photography/static/media/photo3.7e010cd0de4543348249.png",
+    "static/media/photo2.png": "/Adi0706/Aditya-Bhattacharjee-Photography/static/media/photo2.7d9547d61324595ff66b.png",
+    "static/media/background.jpg": "/Adi0706/Aditya-Bhattacharjee-Photography/static/media/background.61d2aa2969443db94565.jpg",
+    "index.html": "/Adi0706/Aditya-Bhattacharjee-Photography/index.html",
+    "main.70c67f9b.css.map": "/Adi0706/Aditya-Bhattacharjee-Photography/static/css/main.70c67f9b.css.map",
+    "main.61f7c81d.js.map": "/Adi0706/Aditya-Bhattacharjee-Photography/static/js/main.61f7c81d.js.map",
+    "787.3fe431ec.chunk.js.map": "/Adi0706/Aditya-Bhattacharjee-Photography/static/js/787.3fe431ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4959bbd1.css",
-    "static/js/main.a310e44a.js"
+    "static/css/main.70c67f9b.css",
+    "static/js/main.61f7c81d.js"
   ]
 }
