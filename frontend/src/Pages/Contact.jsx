@@ -24,7 +24,7 @@ export default function Contact() {
 
   const sendData = async () => {
     try {
-      const response = await fetch("http://localhost:3001/sendEmail", {
+      const response = await fetch("/sendEmail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -49,8 +49,8 @@ export default function Contact() {
   };
 
   return (
-    <ThemeProvider theme={defaultTheme} >
-      <Container component="main" maxWidth="xs"className="theme">
+    <ThemeProvider theme={defaultTheme}>
+      <Container component="main" maxWidth="xs" className="theme">
         <CssBaseline />
         <Box
           sx={{
@@ -61,7 +61,11 @@ export default function Contact() {
           }}
         >
           <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}></Avatar>
-          <Typography component="h1" variant="h5" sx={{ color: "white", fontSize: 24, marginBottom: 3 }}>
+          <Typography
+            component="h1"
+            variant="h5"
+            sx={{ color: "white", fontSize: 24, marginBottom: 3 }}
+          >
             HAVE A QUESTION ?
           </Typography>
           <Box component="form" noValidate sx={{ mt: 3 }}>
@@ -76,7 +80,12 @@ export default function Contact() {
               autoFocus
               value={post.name}
               onChange={handleInput}
-              sx={{ backgroundColor: "white", borderRadius: "10px", fontSize: 16, marginBottom: 2 }}
+              sx={{
+                backgroundColor: "white",
+                borderRadius: "10px",
+                fontSize: 16,
+                marginBottom: 2,
+              }}
             />
             <TextField
               margin="normal"
@@ -89,7 +98,12 @@ export default function Contact() {
               autoFocus
               value={post.email}
               onChange={handleInput}
-              sx={{ backgroundColor: "white", borderRadius: "10px", fontSize: 16, marginBottom: 2 }}
+              sx={{
+                backgroundColor: "white",
+                borderRadius: "10px",
+                fontSize: 16,
+                marginBottom: 2,
+              }}
             />
             <TextField
               margin="normal"
@@ -102,7 +116,12 @@ export default function Contact() {
               autoComplete="current-mobile"
               value={post.Phone_Number}
               onChange={handleInput}
-              sx={{ backgroundColor: "white", borderRadius: "10px", fontSize: 16, marginBottom: 2 }}
+              sx={{
+                backgroundColor: "white",
+                borderRadius: "10px",
+                fontSize: 16,
+                marginBottom: 2,
+              }}
             />
             <TextField
               margin="normal"
@@ -113,7 +132,12 @@ export default function Contact() {
               id="Help"
               value={post.Text_Field}
               onChange={handleInput}
-              sx={{ backgroundColor: "white", borderRadius: "10px", fontSize: 16, marginBottom: 2 }}
+              sx={{
+                backgroundColor: "white",
+                borderRadius: "10px",
+                fontSize: 16,
+                marginBottom: 2,
+              }}
             />
             <Button
               type="submit"
