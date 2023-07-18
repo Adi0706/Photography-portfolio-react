@@ -1,8 +1,11 @@
 const express = require("express");
-const router = express.Router();
+const sendEmailRouter = require("./sendEmailRouter"); // Path to the router module file
 
-const { sendEmail } = require("./controllers/emailController");
+const app = express();
+app.use(express.json());
 
-router.post("/sendEmail", sendEmail);
+app.use(sendEmailRouter);
 
-module.exports = router;
+app.listen(3001, () => {
+  console.log("Server listening on port 3001");
+});
