@@ -7,7 +7,7 @@ import AllRoutes from './Routing/AllRoutes'
 const App = () => {
   return (
     <div className='container'>
-        <Navbar />   
+        {/* <Navbar />    */}
       <AllRoutes />
     </div>
   )
