@@ -12,7 +12,9 @@ const Navbar = () => {
   return (
     <>
       <nav className="nav-bar">
+        
         <ul className="nav-items">
+          
           <li className='function'>
             <NavLink
               exact
